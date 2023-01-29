@@ -2,56 +2,101 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My First Webpage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./background.jpg" type="image">
 
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@1,100&display=swap" rel="stylesheet">
-
-    <style type="text/css">
-        
-        #box
-        {
-            background-color: rgba(94, 13, 54, 0.918);
-            padding: 20px;
-            font-family: 'Hanken Grotesk', sans-serif;
-            color: rgb(245, 245, 245);
-            font-size: 25px;
-            text-align: center;
-
-            margin: 20px 50px 4px 50px;
-            border: 5px rgb(75, 17, 55) solid;
-        }
-        #box2
-        {
-            background-color: rgb(54, 53, 53);
-            color: aliceblue;
-            padding: 50px;  
-            margin: 20px 50px 4px 50px;
-            border: 5px rgb(102, 98, 100) solid;
-            font-family: 'Hanken Grotesk', sans-serif;
-            font-weight: bolder;
-            text-align: center;
-        }
-
-
-
-    </style>
+  <title>My CV in English</title>
 </head>
-<body bgcolor="202020">
+<body>
+<header>
+    <div id="full">
+        <div id="outer" class="gutter">
+            <div id="flex">
+                <div class="header">
+                    <h1>Carita Lindfors</h1>
+                    <h2>IT-Student</h2>
+                </div>
+                <nav>
+                    <ul id="navMain">
+                        <li>
+                            <a class="navP" href="#workexperience">Work Experience</a>
+                        </li>
+                        <li>
+                            <a class="navP" href="#Contact">Contact</a>
+                        </li>
+                        <li>
+                            <a class="navP" style="position:inherit;" href="#">Language</a>
+                        </li>
 
-<div id="box">
-    <h1 >Carita Lindfors</h1>
+                    </ul>
+                    <ul id="navMain">
+                        <nav>
+                            <li>
+                                <a class="navP" href="#Cats">Click this if you're having a bad day</a>
+    
+                            </li>
+                        </nav>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
 </div>
-<div id="box2">
-    <p> </p>
-    <p>This is my first webpage using HTML.</p>
-    <p>Here's nothing to see.</p>
-    <p></p>
-    <img src="./Pärstä.jpeg" width="250px">
-    <p>Check my <a href="https://www.linkedin.com/in/carita-lindfors"><img src="./linkedin-logo.png" width="70"></a> for more information you don't want to see.</p>
-</div>
+</header>
+    <div class="row" id="full">
+        <div class="leftcolumn">
+          <div class="card">
+            <h2>TITLE HEADING</h2>
+            <h5>Title description</h5>
+            <div class="fakeimg" style="height:200px;">Image</div>
+            <p>Some text..</p>
+            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+          </div>
+          <div class="card">
+            <h2>TITLE HEADING</h2>
+            <h5>Title description</h5>
+            <div class="fakeimg" style="height:200px;">Image</div>
+            <p>Some text..</p>
+            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+          </div>
+        </div>
+        <div class="rightcolumn">
+          <div class="card">
+            <h2>About Me</h2>
+            <div class="fakeimg" style="height:100px;">Image</div>
+            <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+          </div>
+          <div class="card">
+            <h3>Popular Post</h3>
+            <div class="fakeimg"><p>Image</p></div>
+            <div class="fakeimg"><p>Image</p></div>
+            <div class="fakeimg"><p>Image</p></div>
+          </div>
+          <div class="card">
+            <h3>Follow Me</h3>
+            <p>Some text..</p>
+          </div>
+        </div>
+      </div>
+      
+<article id="info" class="footer">
+    <p>Contact</p>
+    <ul id="gutter">
+        <li>
+            <a class="contactLink" href="https://www.linkedin.com/in/carita-lindfors" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+        </li>
+        <li>
+            <a class="contactLink" href="CV_27.1.2023.pdf"target="_blank"><i class="fas fa-file fa-2x"></i> CV
+        </li>
+        <li>
+            <a class="contactLink" href="https://github.com/caritalin" target="_blank"><i class="fa-brands fa-git fa-2x"></i></a>
+        </li>
+    </ul>
+</article>
+  
+
 
 </body>
 </html>
