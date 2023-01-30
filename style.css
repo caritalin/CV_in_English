@@ -1,5 +1,6 @@
 
 html {
+    scroll-behavior: smooth;
     position: relative;
     min-width: 700px;
     max-width: 1300px ;
@@ -27,9 +28,9 @@ html {
   
 
   header {
+    background-color: rgba(0, 0, 0, 0.836);
     width: 100%;
-    background-color: black;
-    padding: 100px 50px 50px 50px;
+    padding: 20px 50px 50px 50px;
     left: 0;
     z-index: 100;
     color: white;
@@ -87,7 +88,7 @@ ul#navMain li {
 .leftcolumn {   
     float: left;
     width: 75%;
-  }
+}
   
   /* Right column */
   .rightcolumn {
@@ -118,13 +119,51 @@ ul#navMain li {
     width: 100%;
     padding: 20px;
   }
-  .card {
+  .cardLeft {
+    font-size: 20px;
+    background-color: white;
+    padding: 50px;
+    margin-top: 20px;
+    filter: drop-shadow(0 0 0.8rem black);
+
+  }
+  .cardRight {
+    font-size: 20px;
     background-color: white;
     padding: 20px;
     margin-top: 20px;
     filter: drop-shadow(0 0 0.8rem black);
 
   }
+  progress {
+    background-color: rgb(255, 255, 255);
+}
+
+progress::-webkit-progress-value {
+background: #720c86;
+border-radius:50px; 
+-moz-border-radius: 50px;
+}
+
+progress::-webkit-progress-bar {
+background:rgb(187, 187, 187);
+border-radius:50px; 
+-moz-border-radius: 50px;
+}
+  
+  .skills, .personal {
+    padding-left: 6px;
+    font-size: 20px;
+    text-align: left;
+    list-style: none;
+  }
+  .skills li{
+    line-height: 5px;
+  }
+  .skills h3{
+    padding-bottom: 20px;
+  }
+
   #darkgrey{
     color: #707070;
     font-style: italic;
@@ -133,9 +172,10 @@ ul#navMain li {
   #grey{
     color:rgb(158, 158, 158)
   }
-  li{
+  .cardRight li{
     color: rgb(109, 54, 121);
     font-weight: bolder;
+    list-style: none;
   }
   ul {
     list-style: none;
@@ -166,22 +206,29 @@ ul#navMain li {
   /* Style the footer */
 footer {
     background-color: rgb(28, 28, 28);
-    padding: 20px;
+    margin: 20px 0 20px 0;
+    padding: 40px;
     text-align: center;
     line-height: 4.5rem;
     color:#fff;
-    margin: 1rem;
     filter: drop-shadow(0 0 0.2rem black);
   }
   i {
     padding: 15px;
-}
+  }
 a {
   color:rgb(75, 75, 75);
+  text-decoration: none;
   }
   a:hover {
       color:#707e5d;
   }
+  .links
+  {
+      color: skyblue;
+    padding-left:2px;
+  }
+  
 
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
