@@ -6,8 +6,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">
     <link rel="shortcut icon" href="./background.jpg" type="image">
-
-  <title>My CV in English</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+    <title>My CV in English</title>
 </head>
 <body>
 <header>
@@ -15,30 +17,31 @@
         <div id="outer" class="gutter">
             <div id="flex">
                 <div class="header">
-                    <h1>Carita Lindfors</h1>
+                    <h1>CARITA LINDFORS</h1>
                     <h2>IT-Student</h2>
                 </div>
                 <nav>
+
                     <ul id="navMain">
                         <li>
-                            <a class="navP" href="#workexperience">Work Experience</a>
+                            <a class="navP" href="#work">Work Experience</a>
                         </li>
                         <li>
-                            <a class="navP" href="#Contact">Contact</a>
+                            <a class="navP" href="#courses">Courses</a>
                         </li>
                         <li>
                             <a class="navP" style="position:inherit;" href="#">Language</a>
                         </li>
-
                     </ul>
+                    <!-- </ul>
                     <ul id="navMain">
                         <nav>
                             <li>
-                                <a class="navP" href="#Cats">Click this if you're having a bad day</a>
+                                <a class="navP" href="#Cats">Click this if you're having a bad day</a>*/
     
                             </li>
                         </nav>
-                    </ul>
+                    </ul> -->
                 </nav>
             </div>
         </div>
@@ -48,19 +51,24 @@
     <div class="row" id="full">
         <div class="leftcolumn">
           <div class="card">
-            <h2>TITLE HEADING</h2>
-            <h5>Title description</h5>
+            <ul id="work">
+                <h2>WORK EXPERIENCE</h2>
+                <li>Sales Person <span id="years"> 2015 - present</span></li>
+                <li><span id="grey">Pirkanmaan Osuuskauppa</span> </li>
+                <div class="fakeimg" style="height:200px;">Image</div>
+                <p>Some text..</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            </ul>
+        </div>
+            <div class="card">
+            <ul id="courses">
+                <h2>COURSES</h2>
+                <h5>Title description</h5>
             <div class="fakeimg" style="height:200px;">Image</div>
-            <p>Some text..</p>
-            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-          </div>
-          <div class="card">
-            <h2>TITLE HEADING</h2>
-            <h5>Title description</h5>
-            <div class="fakeimg" style="height:200px;">Image</div>
-            <p>Some text..</p>
-            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-          </div>
+                <p>Some text..</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            </ul>
+            </div>
         </div>
         <div class="rightcolumn">
           <div class="card">
@@ -80,22 +88,15 @@
           </div>
         </div>
       </div>
-      
-<article id="info" class="footer">
-    <p>Contact</p>
-    <ul id="gutter">
-        <li>
-            <a class="contactLink" href="https://www.linkedin.com/in/carita-lindfors" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>
-        </li>
-        <li>
-            <a class="contactLink" href="CV_27.1.2023.pdf"target="_blank"><i class="fas fa-file fa-2x"></i> CV
-        </li>
-        <li>
-            <a class="contactLink" href="https://github.com/caritalin" target="_blank"><i class="fa-brands fa-git fa-2x"></i></a>
-        </li>
-    </ul>
-</article>
-  
+
+
+<footer>
+    <p>Connect with me</p>
+    <a href="https://www.linkedin.com/in/carita-lindfors" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+    <a href="CV_27.1.2023.pdf" target="_blank"><i class="fas fa-file fa-2x"></i></a>
+    <a href="https://github.com/caritalin" target="_blank"><i class="fa-brands fa-git fa-2x"></i></a>
+
+</footer>
 
 
 </body>
