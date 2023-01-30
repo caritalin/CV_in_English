@@ -43,10 +43,7 @@ html {
 .header h2 {
     font-size: 20px;
 }
-.gutter {
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
-}
+
 
 
 #full {
@@ -165,7 +162,7 @@ border-radius:50px;
   }
 
   #darkgrey{
-    color: #707070;
+    color: #8d017a;
     font-style: italic;
   }
 
